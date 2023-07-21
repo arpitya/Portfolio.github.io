@@ -34,7 +34,7 @@ The website is built using the following technologies:
 
 ## Project Screenshots
 
-![Screenshot 1](.\assets\images\Screenshot.png)
+![Screenshot 1](assets/images/Screenshot.png)
 
 ## How to Use
 
