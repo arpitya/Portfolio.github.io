@@ -1,798 +1,767 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arpitya Kumar Singh — Data Engineer & Software Developer. Portfolio, resume and projects in Python, Flask, SQL and AWS.">
+  <meta name="theme-color" content="#0A0C10">
+  <title>Arpitya Kumar Singh — Data Engineer</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
 
     <!--
-      - favicon
-    -->
-    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-    <!--
-      - custom css link
-    -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-
-    <!--
-      - google font link
-    -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-  </head>
-
-  <body>
-
-    <!--
-      - #MAIN
+      - #SIDEBAR
     -->
 
-    <main>
+    <aside class="sidebar" data-sidebar>
 
-      <!--
-        - #SIDEBAR
-      -->
+      <div class="sidebar-info">
 
-      <aside class="sidebar" data-sidebar>
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Arpitya Kumar Singh" width="80">
+        </figure>
 
-        <div class="sidebar-info">
+        <div class="info-content">
+          <h1 class="name" title="Arpitya Kumar Singh">Arpitya Kumar Singh</h1>
 
-          <figure class="avatar-box">
-            <img src="./assets/images/my-avatar.png" alt="Arpitya Kumar Singh" width="80">
-          </figure>
-
-          <div class="info-content">
-            <h1 class="name" title="Arpitya Kumar Singh">Arpitya Kumar Singh</h1>
-
-            <p class="title">Data Engineer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
-
+          <p class="title">Data Engineer</p>
+          <p class="status-line"><span class="status-dot" aria-hidden="true"></span>Currently @ TP</p>
         </div>
 
-        <div class="sidebar-info_more">
-
-          <div class="separator"></div>
-
-          <ul class="contacts-list">
-
-            <li class="contact-item">
-
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
-
-                <a href="mailto:arpityasingh@gmail.com" class="contact-link">arpityasingh@gmail.com</a>
-              </div>
-
-            </li>
-
-            <li class="contact-item">
-
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
-
-                <a href="tel:+12133522795" class="contact-link">+91-9125738668</a>
-              </div>
-
-            </li>
-
-            <li class="contact-item">
-
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
-
-                <time datetime="1982-06-23">June 27, 2001</time>
-              </div>
-
-            </li>
-
-            <li class="contact-item">
-
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
-
-                <address>Gurugram, Haryana</address>
-              </div>
-
-            </li>
-
-          </ul>
-
-          <div class="separator"></div>
-
-          <ul class="social-list">
-
-            <li class="social-item">
-              <a href="https://www.linkedin.com/in/arpitya-singh-239457215/" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-
-            <li class="social-item">
-              <a href="https://github.com/arpitya" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
-
-            <li class="social-item">
-              <a href="https://www.instagram.com/arpitya2706/" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li class="social-item">
-              <a href="http://wa.me/918765525695" class="social-link">
-                <ion-icon name="logo-whatsapp"></ion-icon>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
-      </aside>
-
-
-
-
-
-      <!--
-        - #main-content
-      -->
-
-      <div class="main-content">
-
-        <!--
-          - #NAVBAR
-        -->
-
-        <nav class="navbar">
-
-          <ul class="navbar-list">
-
-            <li class="navbar-item">
-              <button class="navbar-link  active" data-nav-link>About</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
-
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Contact</button>
-            </li>
-
-          </ul>
-
-        </nav>
-
-
-
-
-
-        <!--
-          - #ABOUT
-        -->
-
-        <article class="about  active" data-page="about">
-
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
-
-          <section class="about-text">
-            <p>
-              <b>Hi,</b> I’m Arpitya Kumar Singh, a passionate Computer Science and communication engineering graduate with a strong foundation in algorithms, data structures, and object-oriented design. 
-              I enjoy building scalable and user-friendly applications using Python, C/C++, SQL, Cloud and Database technologies.
-            </p>
-            <p>
-              Currently working as a Software Developer Trainee at KPIT Technologies, I focus on building and deploying scalable RESTful APIs and microservices using Python and Flask, containerizing applications with Docker, and leveraging AWS services — all while writing clean, modular code aligned with Agile practices.
-            </p>
-            <p>
-              Beyond work, I’m a quick learner with a knack for problem-solving, teamwork, and adapting to new challenges.
-            </p>
-          </section>
-
-
-          <!--
-            - service
-          -->
-
-          <section class="service">
-
-            <h3 class="h3 service-title">What i'm doing</h3>
-
-            <ul class="service-list">
-
-              <li class="service-item">
-
-                <div class="service-icon-box">
-                  <img src=".\assets\images\script.svg
-                  " alt="design icon" width="40">
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Programming language</h4>
-
-                  <p class="service-item-text">
-                    C, C++
-                  </p>
-                </div>
-
-              </li>
-
-              <li class="service-item">
-
-                <div class="service-icon-box">
-                  <img src=".\assets\images\web-development-svgrepo-com.svg" alt="Web development icon" width="40">
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Framework</h4>
-
-                  <p class="service-item-text">
-                    Flask
-                  </p>
-                </div>
-
-              </li>
-
-              <li class="service-item">
-
-                <div class="service-icon-box">
-                  <img src=".\assets\images\script.svg" alt="Scripting Languages" width="40">
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Scripting Languages</h4>
-
-                  <p class="service-item-text">
-                    Bash, Pyhton
-                  </p>
-                </div>
-
-              </li>
-
-              <li class="service-item">
-
-                <div class="service-icon-box">
-                  <img src=".\assets\images\db-svgrepo-com.svg" alt="Database Technologies" width="40">
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Database Technologies</h4>
-
-                  <p class="service-item-text">
-                    MySQL
-                  </p>
-                </div>
-
-              </li>
-
-              <li class="service-item">
-
-                <div class="service-icon-box">
-                  <img src=".\assets\images\cloud.svg" alt="Cloud Technologies" width="40">
-                </div>
-
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Cloud Technologies</h4>
-
-                  <p class="service-item-text">
-                    AWS
-                  </p>
-                </div>
-
-              </li>
-
-            </ul>
-
-          </section>
-
-
-          <!--
-            - testimonials modal
-          -->
-
-          <div class="modal-container" data-modal-container>
-
-            <div class="overlay" data-overlay></div>
-
-            <section class="testimonials-modal">
-
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
-            </section>
-
-          </div>
-
-
-        </article>
-
-
-
-
-
-        <!--
-          - #RESUME
-        -->
-
-        <article class="resume" data-page="resume">
-
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-            <a class="navbar-link active" href="https://drive.google.com/drive/folders/1TvDnVlHfQ-WNZ4WdQm_Q4ic2GCZMFvP8?usp=sharing">Download Resume</a>
-          </header>
-
-
-          <section class="timeline">
-
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
-            </div>
-
-            <ol class="timeline-list">
-
-              <li class="timeline-item">
-
-                <h4 class="h4 timeline-item-title">Kalinga Institute of Industrial Technology</h4>
-
-                <span>2020 — 2024</span>
-
-                <p class="timeline-text">
-                  B.Tech. in Computer Science and Communication Engineering. <br>
-                  C.G.P.A.- 8.9
-                </p>
-
-              </li>
-
-              <li class="timeline-item">
-
-                <h4 class="h4 timeline-item-title">Intermediate Lucknow Public School</h4>
-
-                <span>2018 — 2019</span>
-
-                <p class="timeline-text">
-                  Completed in PCM stream with Coumputer Science.
-                </p>
-
-              </li>
-
-              <li class="timeline-item">
-
-                <h4 class="h4 timeline-item-title">High school from New Public School</h4>
-
-                <span>2016 — 2017</span>
-
-              </li>
-
-            </ol>
-
-          </section>
-
-          <section class="timeline">
-
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Experience</h3>
-            </div>
-
-            <ol class="timeline-list">
-              
-              <li class="timeline-item">
-
-                <h4 class="h4 timeline-item-title">
-                  TP</h4>
-                  <p class="timeline-text">
-                  Data Engineer I
-                </p>
-
-                <span>July 2026 - Present  </span>
-
-              </li> 
-
-              <li class="timeline-item">
-
-                <h4 class="h4 timeline-item-title">
-                  KPIT Technologies</h4>
-                  <p class="timeline-text">
-                  Associate Software Developer
-                </p>
-
-                <span>November 2025 - June 2026 </span>
-
-              </li>
-
-              <li class="timeline-item">
-
-                <h4 class="h4 timeline-item-title">
-                  KPIT Technologies</h4>
-                  <p class="timeline-text">
-                  Software Developer Intern
-                </p>
-
-                <span>March - November 2025  </span>
-
-              </li>
-
-              <li class="timeline-item">
-
-                <h4 class="h4 timeline-item-title">
-                  AWS Cloud Virtual Internship</h4>
-
-                <span>May - July 2023</span>
-
-              </li>
-
-            </ol>
-
-          </section>
-
-          <section class="skill">
-
-            <h3 class="h3 skills-title">My skills</h3>
-
-            <ul class="skills-list content-card">
-
-              <li class="skills-item">
-
-                <div class="title-wrapper">
-                  <h5 class="h5">Software Development</h5>
-                 <!--<data value="80">80%</data>--> 
-                </div>
-
-              </li>
-
-              <li class="skills-item">
-
-                <div class="title-wrapper">
-                  <h5 class="h5">Web Development</h5>
-               
-                </div>
-<!--
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%;"></div>
-                </div>--> 
-
-              </li>
-
-              <li class="skills-item">
-
-                <div class="title-wrapper">
-                  <h5 class="h5">Data Analytics</h5>
-                </div>
-
-              </li>
-              
-              <li class="skills-item">
-
-                <div class="title-wrapper">
-                  <h5 class="h5">Database
-                  </h5>
-                </div>
-
-              </li>
-
-              <li class="skills-item">
-
-                <div class="title-wrapper">
-                  <h5 class="h5">Cloud</h5>
-                </div>
-
-              </li>
-
-            </ul>
-
-          </section>
-
-        </article>
-
-
-
-
-
-        <!--
-          - #PORTFOLIO
-        -->
-
-        <article class="portfolio" data-page="portfolio">
-
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
-
-          <section class="projects">
-
-            <ul class="filter-list">
-
-              <li class="filter-item">
-                <button class="active" data-filter-btn>Projects Done</button>
-              </li>
-
-            </ul>
-
-            <div class="filter-select-box">
-
-              <button class="filter-select" data-select>
-
-                <div class="select-value" data-selecct-value>Select category</div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-
-              </button>
-
-              <ul class="select-list">
-
-                <li class="select-item">
-                  <button data-select-item>Projects Done</button>
-                </li>
-
-              </ul>
-
-            </div>
-
-            <ul class="project-list">
-
-              <li class="project-item  active" data-filter-item data-category="Python">
-                <a href="https://github.com/arpitya/Smart-Crop-Management-System">
-
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img src=".\assets\images\3.jpg" alt="Smart Crop Management System" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Smart Crop Management System</h3>
-
-                  <p class="project-category">Machine Learning, Web development and Flask</p>
-
-                </a>
-              </li>
-
-              <li class="project-item  active" data-filter-item data-category="Python">
-                <a href="https://github.com/arpitya/Movie_recommendation_system">
-
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img src=".\assets\images\project-1.png" alt="Movie-Recommendation-System" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Movie Recommendation System</h3>
-
-                  <p class="project-category">Machine Learning</p>
-
-                </a>
-              </li>
-
-              <li class="project-item  active" data-filter-item data-category="Python">
-                <a href="https://github.com/arpitya/Youtube-Channel-Analysis">
-
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img src=".\assets\images\youtube.jpg" alt="Youtube" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Youtube Channel Analysis</h3>
-
-                  <p class="project-category">Data Analytics</p>
-
-                </a>
-              </li>
-
-              <li class="project-item  active" data-filter-item data-category="GUI">
-                <a href="https://github.com/arpitya/Hotel-management-system">
-
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img src=".\assets\images\Hotel.png" alt="Hotel" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Hotel Management System</h3>
-
-                  <p class="project-category">Python GUI Application</p>
-
-                </a>
-              </li>
-
-              <li class="project-item  active" data-filter-item data-category="web development">
-                <a href="https://github.com/arpitya/Portfolio.github.io">
-
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img src=".\assets\images\project-9.png" alt="arrival" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Portfolio Website</h3>
-
-                  <p class="project-category">Web development</p>
-
-                </a>
-              </li>
-
-              <li class="project-item  active" data-filter-item data-category="application">
-                <a href="https://github.com/arpitya/Python-weather-project">
-
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img src=".\assets\images\weather.png" alt="weather" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Weather data fetching through API</h3>
-
-                  <p class="project-category">API</p>
-
-                </a>
-              </li>
-
-              
-
-              <li class="project-item  active" data-filter-item data-category="web development">
-                <a href="https://github.com/arpitya/restaraunt1.github.io">
-
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img src=".\assets\images\front.png" alt="summary" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Restaraunt Website</h3>
-
-                  <p class="project-category">Front End Web development</p>
-
-                </a>
-              </li>
-
-              <li class="project-item  active" data-filter-item data-category="applications">
-                <a href="https://github.com/arpitya/simplecalculator.github.io">
-
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img src=".\assets\images\calc.png" alt="Calculator" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Calculator</h3>
-
-                  <p class="project-category">Web Development</p>
-
-                </a>
-              </li>
-              <li class="project-item  active" data-filter-item data-category="applications">
-                <a href="https://github.com/arpitya/Banking-System">
-
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img src=".\assets\images\Picture1.png" alt="Bank" loading="lazy">
-                  </figure>
-
-                  <h3 class="project-title">Bank Management System</h3>
-
-                  <p class="project-category">C++</p>
-
-                </a>
-              </li>
-
-            </ul>
-
-          </section>
-        </article>
-        <!--
-          - #CONTACT
-        -->
-
-        <article class="contact" data-page="contact">
-
-          <header>
-            <h2 class="h2 article-title">Contact</h2>
-          </header>
-
-          <section class="mapbox" data-mapbox>
-            <figure>
-              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.74592470856!2d80.88859627418036!3d26.784367765596766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bf9533d65305f%3A0xf3e1dbd78f60351c!2sL%2F133%2C%20Hind%20Nagar%2C%20Sector%20C1%2C%20Transport%20Nagar%2C%20Lucknow%2C%20Uttar%20Pradesh%20226012!5e0!3m2!1sen!2sin!4v1689920272000!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        -->
-               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28052.511361937224!2d77.04329981083986!3d28.492676699999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19ce76f73905%3A0x3bad165dadeeb991!2sTeleperformance%20Gurugram!5e0!3m2!1sen!2sin!4v1785088918888!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </figure>
-          </section>
-          <section class="contact-form">
-
-            <h3 class="h3 form-title">Contact Form</h3>
-
-            <form action="https://formspree.io/f/xknlgzev" method="POST" class="form" data-form>
-              <div class="input-wrapper">
-                <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-                <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-              </div>
-
-              <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-              <button class="form-btn" type="submit"  data-form-btn>
-                <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
-              </button>
-
-            </form>
-
-          </section>
-
-        </article>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
 
       </div>
 
-    </main>
-    <!--
-      - custom js link
-    -->
-    <script src="./assets/js/script.js"></script>
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:arpityasingh@gmail.com" class="contact-link">arpityasingh@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919125738668" class="contact-link">+91 91257 38668</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-06-27">June 27, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Gurugram, Haryana</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/arpitya-singh-239457215/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/arpitya" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/arpitya2706/" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="http://wa.me/918765525695" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
 
     <!--
-      - ionicon link
+      - #main-content
     -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-  </body>
+    <div class="main-content">
 
-  </html>
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <p class="eyebrow">Data Engineer · Software Developer</p>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            <b>Hi,</b> I'm Arpitya Kumar Singh, a Computer Science and Communication Engineering graduate with a
+            strong foundation in algorithms, data structures, and object-oriented design.
+            I build scalable, user-friendly applications with Python, C/C++, SQL, and cloud and database
+            technologies.
+          </p>
+          <p>
+            I currently work as a Data Engineer at TP. Before that, as a Software Developer at KPIT
+            Technologies, I built and deployed RESTful APIs and microservices with Python and Flask,
+            containerized applications with Docker, and worked with AWS services — writing clean, modular
+            code aligned with Agile practices.
+          </p>
+          <p>
+            Beyond work, I'm a quick learner with a knack for problem-solving, teamwork, and adapting to new
+            challenges.
+          </p>
+
+          <ul class="tech-tags">
+            <li class="tech-tag">Python</li>
+            <li class="tech-tag">C / C++</li>
+            <li class="tech-tag">SQL</li>
+            <li class="tech-tag">Flask</li>
+            <li class="tech-tag">Docker</li>
+            <li class="tech-tag">AWS</li>
+          </ul>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming Languages</h4>
+
+                <p class="service-item-text">
+                  C, C++
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="flash-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Framework</h4>
+
+                <p class="service-item-text">
+                  Flask
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="terminal-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Scripting Languages</h4>
+
+                <p class="service-item-text">
+                  Bash, Python
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Technologies</h4>
+
+                <p class="service-item-text">
+                  MySQL
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <ion-icon name="cloud-outline"></ion-icon>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Technologies</h4>
+
+                <p class="service-item-text">
+                  AWS
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <p class="eyebrow">Where I've been</p>
+          <h2 class="h2 article-title">Resume</h2>
+          <a class="resume-download" href="https://drive.google.com/drive/folders/1TvDnVlHfQ-WNZ4WdQm_Q4ic2GCZMFvP8?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="download-outline"></ion-icon>
+            <span>Download Resume</span>
+          </a>
+        </header>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kalinga Institute of Industrial Technology</h4>
+
+              <span class="timeline-date">2020 — 2024</span>
+
+              <p class="timeline-text">
+                B.Tech. in Computer Science and Communication Engineering. <br>
+                CGPA — 8.9
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intermediate, Lucknow Public School</h4>
+
+              <span class="timeline-date">2018 — 2019</span>
+
+              <p class="timeline-text">
+                Completed in PCM stream with Computer Science.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High School, New Public School</h4>
+
+              <span class="timeline-date">2016 — 2017</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TP</h4>
+              <p class="timeline-role">Data Engineer I</p>
+
+              <span class="timeline-date">July 2026 — Present</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KPIT Technologies</h4>
+              <p class="timeline-role">Associate Software Developer</p>
+
+              <span class="timeline-date">November 2025 — June 2026</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KPIT Technologies</h4>
+              <p class="timeline-role">Software Developer Intern</p>
+
+              <span class="timeline-date">March — November 2025</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AWS Cloud Virtual Internship</h4>
+
+              <span class="timeline-date">May — July 2023</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Skills</h3>
+
+          <ul class="skills-tags">
+
+            <li class="skill-tag">Software Development</li>
+            <li class="skill-tag">Web Development</li>
+            <li class="skill-tag">Data Analytics</li>
+            <li class="skill-tag">Database</li>
+            <li class="skill-tag">Cloud</li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <p class="eyebrow">Selected work</p>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data &amp; ML</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>All</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data &amp; ML</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="data & ml">
+              <a href="https://github.com/arpitya/Smart-Crop-Management-System" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/3.jpg" alt="Smart Crop Management System" loading="lazy">
+                </figure>
+
+                <p class="project-category">Data &amp; ML</p>
+                <h3 class="project-title">Smart Crop Management System</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data & ml">
+              <a href="https://github.com/arpitya/Movie_recommendation_system" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="Movie Recommendation System" loading="lazy">
+                </figure>
+
+                <p class="project-category">Data &amp; ML</p>
+                <h3 class="project-title">Movie Recommendation System</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data & ml">
+              <a href="https://github.com/arpitya/Youtube-Channel-Analysis" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/youtube.jpg" alt="YouTube Channel Analysis" loading="lazy">
+                </figure>
+
+                <p class="project-category">Data &amp; ML</p>
+                <h3 class="project-title">YouTube Channel Analysis</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/arpitya/Hotel-management-system" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Hotel.png" alt="Hotel Management System" loading="lazy">
+                </figure>
+
+                <p class="project-category">Applications</p>
+                <h3 class="project-title">Hotel Management System</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/arpitya/Portfolio.github.io" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="Portfolio Website" loading="lazy">
+                </figure>
+
+                <p class="project-category">Web Development</p>
+                <h3 class="project-title">Portfolio Website</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/arpitya/Python-weather-project" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/weather.png" alt="Weather App" loading="lazy">
+                </figure>
+
+                <p class="project-category">Applications</p>
+                <h3 class="project-title">Weather Data via API</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/arpitya/restaraunt1.github.io" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/front.png" alt="Restaurant Website" loading="lazy">
+                </figure>
+
+                <p class="project-category">Web Development</p>
+                <h3 class="project-title">Restaurant Website</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/arpitya/simplecalculator.github.io" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/calc.png" alt="Calculator" loading="lazy">
+                </figure>
+
+                <p class="project-category">Applications</p>
+                <h3 class="project-title">Calculator</h3>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/arpitya/Banking-System" target="_blank" rel="noopener noreferrer">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Picture1.png" alt="Bank Management System" loading="lazy">
+                </figure>
+
+                <p class="project-category">Applications</p>
+                <h3 class="project-title">Bank Management System</h3>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <p class="eyebrow">Get in touch</p>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28052.511361937224!2d77.04329981083986!3d28.492676699999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19ce76f73905%3A0x3bad165dadeeb991!2sTeleperformance%20Gurugram!5e0!3m2!1sen!2sin!4v1785088918888!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map location"></iframe>
+          </figure>
+        </section>
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Send a message</h3>
+
+          <form action="https://formspree.io/f/xknlgzev" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane-outline"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
